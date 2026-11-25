@@ -51,7 +51,7 @@ BarWidget {
   function quoteUrl() {
     return "https://query1.finance.yahoo.com/v8/finance/chart/"
       + encodeURIComponent(symbol)
-      + "?range=1d&interval=1m"
+      + "?range=1d&interval=1d"
   }
 
   function resetQuote() {
